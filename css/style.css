@@ -1,0 +1,171 @@
+p {
+  font-size: 0.875rem;
+  color: #c4c4ca;
+  text-align: center;
+}
+
+body {
+  min-height: 75rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: 5rem;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 {
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4a69;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #f08272;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+#press {
+  background-color: #f08272;
+  color: #ffffff;
+  text-align: center;
+}
+
+#features {
+  background-color: #ffffff;
+  position: relative;
+}
+
+#pricing {
+  background-color: #ffffff;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4a69;
+  color: #ffffff;
+  font-weight: 700;
+  padding-bottom: 5rem;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.f-i {
+  padding: 2rem;
+}
+
+.iphone-image {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 5rem;
+}
+
+.nav-item {
+  padding-right: 5rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.bt-dw {
+  text-align: center;
+
+  margin: 0.7rem;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.row {
+  padding: 5%;
+}
+
+.column-3 {
+  flex: 33.33%;
+  padding: 5rem;
+}
+
+.column-4 {
+  flex: 25%;
+  padding: 3rem;
+}
+
+.icon {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tc-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  padding: 15%;
+}
+
+.p-img {
+  width: 100%;
+}
+
+.btn-signup {
+  background-color: #ff4a69;
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: #f08272;
+}
+
+.btn-free {
+  border-color: #ff4a69;
+  color: #ff4a69;
+}
+
+.btn-free:hover {
+  background-color: #ff4a69;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
